@@ -65,7 +65,7 @@ function display_menu {
     echo "################################################"
     echo "Welcome to Scripts Menu"
     echo "Please choose an option:"
-    local i=1
+    local i=0
     for script in "${!script_map[@]}"; do
         echo "$i. ${script_map[$script]}"
         ((i++))
