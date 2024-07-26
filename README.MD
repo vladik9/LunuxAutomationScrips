@@ -1,39 +1,6 @@
 # Scripts list:
 
-.
-├── programs.txt
-├── script-menu.bash
-├── scripts
-│   ├── alacarte.bash
-│   ├── breaktime.bash
-│   ├── compass.bash
-│   ├── discord.bash
-│   ├── docker.bash
-│   ├── dropbox.bash
-│   ├── filezilla.bash
-│   ├── flameshot.bash
-│   ├── git.bash
-│   ├── google-chrome.bash
-│   ├── htop.bash
-│   ├── java.bash
-│   ├── mysql-workbench.bash
-│   ├── neofetch.bash
-│   ├── net-tools.bash
-│   ├── nodejs.bash
-│   ├── npm.bash
-│   ├── postman.bash
-│   ├── python.bash
-│   ├── qbittorrent.bash
-│   ├── slack.bash
-│   ├── spotify.bash
-│   ├── sublime-text.bash
-│   ├── telegram.bash
-│   ├── terminator.bash
-│   ├── vlc.bash
-│   ├── vs-code.bash
-│   ├── warp.bash
-│   └── wget.bash
-└── script-template.bash
+ ![img](./images/image.png "scripts")
 
 # Menu of scrips:
 
