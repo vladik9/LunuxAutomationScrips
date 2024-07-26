@@ -1,0 +1,9 @@
+linux plugins
+https://catalins.tech/zsh-plugins/
+
+.zshrc
+is in ~
+
+config is in 
+~/.config/terminator
+

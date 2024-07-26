@@ -1,0 +1,30 @@
+#check your input screen
+xrandr
+
+#is outputed
+HDMI-1 disconnected (normal left inverted right x axis y axis)
+HDMI-2 connected 1920x1080+1920+0 <---- this is what we need
+
+#add new resolution
+
+cvt 2560 1080
+
+
+#this will create a new mode line we can use later
+
+#this should be outputed
+
+Modeline "2560x1080_60.00"
+
+#adding new modeline to system
+xrandr --newmode "2560x1080_60.00"  230.00  2560 2720 2992 3424  1080 1083 1093 1120 -hsync +vsync
+
+
+#ading model to system
+xrandr --addmode HDMI-2 "2560x1080_60.00"
+
+#adding it in permanent file to save, add at the end this 2 commands
+xrandr --newmode "2560x1080_60.00"  230.00  2560 2720 2992 3424  1080 1083 1093 1120 -hsync +vsync
+xrandr --addmode HDMI-2 "2560x1080_60.00"
+
+#save, done

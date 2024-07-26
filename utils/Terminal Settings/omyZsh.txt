@@ -1,0 +1,41 @@
+https://github.com/romkatv/powerlevel10k
+https://ohmyz.sh/
+
+#install zsh
+sudo apt install zsh
+
+
+#ceck bash
+echo $0
+
+#change bash to zsh
+chsh
+Password:
+Changing the login shell for vlad
+Enter the new value, or press ENTER for the default
+	Login Shell [/bin/bash]: (type this) /bin/zsh
+#close terminal and reopen
+
+#past this to install
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+
+#copy powerlevel 10k
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+
+#be sure we have ./fonts and required fonts (Meslog)
+https://github.com/ibnyusrat/my-linux-setup
+
+#in gnome-tweks change monospace and document text to MesloLGS NF Regular
+
+#edit theme
+nano ~/.zshrc
+
+ #change
+ ZSH_THEME="robbyrussell"
+ #to 
+ ZSH_THEME="powerlevel10k/powerlevel10k"
+
+ #close and reopen terminal
+
+#select options

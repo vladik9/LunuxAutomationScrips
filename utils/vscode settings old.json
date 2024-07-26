@@ -1,0 +1,162 @@
+{
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "editor.formatOnSave": true,
+  "C_Cpp.debugger.useBacktickCommandSubstitution": true,
+  "code-runner.runInTerminal": true,
+  "editor.formatOnPaste": true,
+  "editor.linkedEditing": true,
+  "editor.accessibilityPageSize": 100,
+  "explorer.confirmDelete": false,
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.minimap.side": "left",
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "git.autofetch": true,
+  "editor.fontSize": 16,
+  "git.enableSmartCommit": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "editor.tabSize": 5,
+  "gitlens.advanced.messages": {
+    "suppressGitMissingWarning": true
+  },
+  "editor.cursorWidth": 3,
+  "workbench.editorAssociations": {
+    "*.jpg": "default",
+    "*.ipynb": "jupyter-notebook"
+  },
+  "editor.mouseWheelZoom": true,
+  "editor.fontLigatures": true,
+  "workbench.colorCustomizations": {
+    "terminal.foreground": "#e7ba12",
+    "terminal.background": "#211c33",
+    "editorCursor.foreground": "#035397",
+    "terminalCursor.foreground": "#035397",
+    "editor.lineHighlightBackground": "#1073cf2d",
+    "editor.lineHighlightBorder": "#9fced11f"
+  },
+  "diffEditor.codeLens": true,
+  "mssql.connections": [
+    {
+      "server": "{{put-server-name-here}}",
+      "database": "{{put-database-name-here}}",
+      "user": "{{put-username-here}}",
+      "password": ""
+    }
+  ],
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+  "[jsonc]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "insert",
+    "gitlens.codeLens.scopes": ["document"]
+  },
+  "launch": {
+
+    "configurations": [],
+    "compounds": []
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 100,
+  "diffEditor.wordWrap": "off",
+  "editor.tokenColorCustomizations": {
+    // "comments": "#54B435"
+    "comments": "#b9b4c780"
+  },
+  "editor.find.addExtraSpaceOnTop": false,
+  "editor.codeLensFontFamily": "'Cascadia Code','Fira Code',Consolas,'Courier New', monospace",
+  "editor.suggest.preview": true,
+  "editor.inlayHints.enabled": "on",
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "vsicons.dontShowNewVersionMessage": true,
+  "mssql.enableQueryHistoryCapture": true,
+  "C_Cpp.autocomplete": "disabled",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "files.exclude": {
+    "/.classpath": true,
+    "/.project": true,
+    "/.settings": true,
+    "/.factorypath": true
+  },
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.fontFamily": "'MesloLGS NF','Fira Code', monospace",
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.letterSpacing": 1,
+  "terminal.integrated.fontWeight": "normal",
+  "editor.guides.indentation": false,
+  "typescript.format.semicolons": "insert",
+  "javascript.format.semicolons": "insert",
+  "editor.inlineSuggest.enabled": true,
+  "code-runner.clearPreviousOutput": true,
+  "editor.rulers": [100],
+  "redhat.telemetry.enabled": true,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "git.openRepositoryInParentFolders": "always",
+  "[source.css.jsx.styled]": {},
+  "githubPullRequests.pullBranch": "never",
+  "workbench.sideBar.location": "right",
+  "editor.cursorBlinking": "expand",
+  "editor.fontFamily": "'Anonymous Pro', 'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace",
+  "editor.fontWeight": "bold",
+  "editor.fontVariations": false,
+  "editor.formatOnType": true,
+  "workbench.settings.applyToAllProfiles": [],
+  "quokka.compactMessageOutput": false,
+  "js/ts.implicitProjectConfig.checkJs": false,
+  "npm.keybindingsChangedWarningShown": true,
+  "git.confirmSync": false,
+  "hediet.vscode-drawio.resizeImages": null,
+  "editor.indentSize": "tabSize",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.minimap.enabled": false,
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "aws.suppressPrompts": {
+    "codeWhispererNewWelcomeMessage": true
+  },
+  "workbench.productIconTheme": "material-product-icons",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Darcula",
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "bash",
+      "icon": "terminal-bash"
+    },
+    "zsh": {
+      "path": "zsh"
+    },
+    "fish": {
+      "path": "fish"
+    },
+    "tmux": {
+      "path": "tmux",
+      "icon": "terminal-tmux"
+    },
+    "pwsh": {
+      "path": "pwsh",
+      "icon": "terminal-powershell"
+    }
+  },
+  "editor.cursorSmoothCaretAnimation": "on",
+  "CodeGPT.apiKey": "CodeGPT Plus",
+  "CodeGPT.model": "CodeGPT Plus",
+  "terminal.integrated.env.linux": {},
+  "console-ninja.featureSet": "Community"
+}
