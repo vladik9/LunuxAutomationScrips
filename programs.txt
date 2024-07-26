@@ -24,6 +24,7 @@ Docker
 Dropbox
 Warp 
 Terminator
+net-tools
 
 
 htop
