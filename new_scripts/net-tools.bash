@@ -1,5 +1,7 @@
+
 #!/bin/bash
 echo "################################################"
-echo "Installing Spotify..."
-echo "Spotify has been installed successfully."
+echo "Installing net-tools..."
+ 
+echo "Net-tools has been installed successfully."
 echo "################################################"
