@@ -1,0 +1,32 @@
+Google Chrome
+VsCode
+Atom
+Sublime Text
+Discord
+Spotify
+Slack
+Telegram
+Postman
+MySQL Workbench
+Compass
+VLC
+BreakTime
+FlameShot
+FileZilla
+QbitTorrent
+
+Git
+NodeJs
+Java
+Python
+NPM
+Docker 
+Dropbox
+Warp 
+Terminator
+
+
+htop
+alacarte
+neofetch
+
