@@ -7,3 +7,4 @@ is in ~
 config is in 
 ~/.config/terminator
 
+ 
