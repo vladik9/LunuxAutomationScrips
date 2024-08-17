@@ -1,3 +1,4 @@
+  GNU nano 4.8                                              config                                                         
 [global_config]
   title_transmit_fg_color = "#000000"
   title_transmit_bg_color = "#2ec27e"

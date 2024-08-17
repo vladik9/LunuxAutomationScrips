@@ -5,7 +5,7 @@ https://ohmyz.sh/
 sudo apt install zsh
 
 
-#ceck bash
+#check bash
 echo $0
 
 #change bash to zsh
