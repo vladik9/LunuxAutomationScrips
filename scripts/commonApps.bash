@@ -99,7 +99,7 @@ echo "Installing wget..."
 sudo apt-get install -y wget
 echo "Wget has been installed successfully."
 
-echo "Installing planc..."
+echo "Installing plank..."
 sudo apt install plank
 echo "Plank has been installed successfully."
 

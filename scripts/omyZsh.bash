@@ -17,6 +17,7 @@ mkdir ~/.fonts
 # Copy fonts to the right place
 cp -r ../utils/Fonts-Linux/* ~/.fonts
 cp -r ../utils/Terminal\ Settings/.zshrc ~/
+cp -r ../utils/Terminal\ Settings/.p10k.zsh ~/
 cp -r ../utils/Terminal\ Settings/config ~/.config/terminator/
 
 # Install oh-my-zsh using the install script from the official repository
