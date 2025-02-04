@@ -1,0 +1,11 @@
+[Unit]
+Description=Swatch Log Monitor for Login Events using swatchdog
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/swatchdog --config-file=/etc/swatch.conf --tail-file=/var/log/auth.log
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
